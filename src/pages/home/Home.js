@@ -6,7 +6,7 @@ import AppLayout from "../../components/AppLayout";
 const Home = () => {
   const token = localStorage.getItem("Authorization");
 
-  const url = "http://192.168.55.28:80/sse";
+  const url = "http://localhost:8080/sse";
 
   // Yaffle - EventSource
   // npm install event-source-polyfill
